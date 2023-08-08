@@ -1,0 +1,44 @@
+body{
+	
+}
+
+.container{
+	width: 245px;
+	height: 340px;
+
+	font-size: 14px;
+
+	background-color: #eeeeee;
+
+}
+.comman{
+	width: 250px;
+	height: 24px;
+	
+}
+.first{
+
+	width: 32px;
+height: 24px;
+	
+	float: left;
+}
+.second{
+	width: 180px;
+height: 24px;
+	border: 1px solid white;
+	float: left;
+}
+.third{
+	width: 32px;
+	height: 24px;
+	float: left;
+	border: 1px solid white;
+}
+.item{
+	height: 24px;
+
+}
+.comman:hover{
+	background-color: white;
+}

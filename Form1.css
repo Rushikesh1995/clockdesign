@@ -1,0 +1,27 @@
+.grid-container{
+	display: grid;
+	grid-template-columns: 2fr 1fr 3fr;
+	
+	grid-auto-rows: 100px;
+	grid-row-gap: 25px;
+	grid-column-gap: 50px;
+	grid-template-areas: "header header header";
+}
+.grid-item{
+	background: lightblue;
+	border: 0.5px solid white;
+}
+.grid-item-1{
+	grid-area: header;
+}
+.grid-item-2{
+	grid-row-start: 2;
+	grid-row-end: 5;
+}
+.grid-item-5{
+	grid-column-start: 2;
+	grid-column-end:4;
+}
+.grid-item-8{
+	grid-row: span 3;
+}

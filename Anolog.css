@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+    margin: 50px;
+}
+
+.clock{
+    width: 400px;
+    height: 400px;
+    margin-left: -100px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    background-color:#333333;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7),
+    0px 0px 20px rgba(0,0, 0,0.7);
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    color: white;
+}
+.clock1{
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    background-color: #dddddd;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7),
+    0px 0px 20px rgba(0,0, 0,0.7);
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    color:#333333;
+}
+.clock  ul li{
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    transform: rotate(calc(30deg*var(--i)));
+    inset:20px
+}
+.clock1 ul li{
+    list-style: none;
+    position:absolute;
+    text-align: center;
+    transform: rotate(calc(30deg*var(--i)));
+    inset:20px;
+}
+.clock ul li span{
+    transform: rotate(calc(-30deg*var(--i)));
+    display: inline-block;
+}
+.clock1 ul li span{
+    transform: rotate(calc(-30deg*var(--i)));
+    display: inline-block;
+}
+.clock:after{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    position:absolute;
+}
+.clock1:after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    margin-left: -6.5px;
+    background:gray;
+    border-radius: 50%;
+    border:2px solid black;
+}
+.needle{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.needle span{
+    width: 5px;
+    height: var(--h);
+    background-color: var(--clr);
+    position: absolute;
+    border-radius: 5px;
+}
+
+.needle1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.needle1 span{
+    width: 5px;
+    height: var(--h);
+    background-color: var(--clr);
+    position: absolute;
+    border-radius: 5px;
+}
+.h{
+    width: 50px;
+}
+.first{
+    margin-left: 450px;
+}
+.second{
+    margin-left: 1050px;
+    margin-top: -80px;
+}

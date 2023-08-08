@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.container{
+    width: 100%;
+    height: 1900px;
+    border: 1px solid blue;
+    position: relative;
+    background: linear-gradient(180deg, #000000 50%, #ffffff 50%);
+}
+.navbar{
+    overflow: hidden;
+    background-color: #000000;
+    padding: 15px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    
+    z-index: 99;
+}
+.navbar img{
+    padding: 12px;
+    background-color: #000000;
+    
+    float: left;
+}
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    line-height: 35px;
+    font-size: 16px;
+    float: left;
+    
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    padding: 12px;
+    
+    float: left;
+}
+.mega-menu{
+    position: absolute;
+    top:120%;
+    width: 100%;
+    
+    height: 500px;
+    left: 0px;
+    transition: 2s;
+    box-shadow: 0px 10px 2px 3px;
+    background-color: #8a9fa3;
+
+}
+
+#navbar-right{
+    padding: 12px;
+    float: left;
+    
+ 
+}
+#navbar-right a{
+    font-size: 12px;
+    color: #8a9fa3;
+    transition: 0.4s;
+    float: left;
+    margin-top: -100px;
+    letter-spacing: 1px;
+}
+#logo1{
+    margin-top: -23px;
+    transition: 0.4s;
+}
+#logo{
+    transition: 0.4s;
+}
+#search1{
+    transition: 0.4s;
+}
